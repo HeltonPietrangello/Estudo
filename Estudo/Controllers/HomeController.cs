@@ -25,6 +25,11 @@ namespace Estudo.Controllers
             ViewBag.Message = "Your contact page.";
 
             return View();
+        }       
+
+        public ActionResult Contato()
+        {
+            return View();
         }
     }
 }
